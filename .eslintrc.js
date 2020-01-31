@@ -1,0 +1,61 @@
+'use strict'
+
+module.exports = {
+  env: {
+    browser: true,
+    node: true,
+    es6: true,
+  },
+  plugins: ['react'],
+  globals: {
+    location: true,
+  },
+  parser: 'babel-eslint',
+  parserOptions: {
+    ecmaVersion: 7,
+    sourceType: 'module',
+    ecmaFeatures: {
+      jsx: true,
+      modules: true,
+    },
+  },
+  extends: 'react-app',
+  rules: {
+    'no-underscore-dangle': 1,
+    'prefer-destructuring': 1,
+    'arrow-body-style': 0,
+    'import/no-extraneous-dependencies': 0,
+    'import/extensions': 0,
+    'prefer-const': 0,
+    'no-unused-expressions': [
+      1,
+      {
+        allowShortCircuit: true,
+      },
+    ],
+    'no-empty': [
+      2,
+      {
+        allowEmptyCatch: true,
+      },
+    ],
+    'default-case': 0,
+    'no-case-declarations': 0,
+    'class-methods-use-this': 0,
+    'no-script-url': 0,
+    'semi': 0,
+    'eol-last': 0,
+    'no-unused-vars': 1,
+    'global-require': 0,
+    'react/jsx-uses-react': 2,
+    'react/jsx-uses-vars': 2,
+    'import/no-unresolved': 0,
+    'no-unneeded-ternary': 1,
+    'no-nested-ternary': 1,
+    'max-len': [2, 150],
+    'no-return-assign': 0,
+    'dot-notation': 1,
+    'no-param-reassign': 1,
+    'func-names': 1,
+  },
+}

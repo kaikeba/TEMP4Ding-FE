@@ -1,0 +1,23 @@
+export const HTTP_STATUS = {
+  SUCCESS: 200,
+  NOT_MODIFIED: 304,
+  CLIENT_ERROR: 400,
+  AUTHENTICATE: 401,
+  FORBIDDEN: 403,
+  NOT_FOUND: 404,
+  SERVER_ERROR: 500,
+  BAD_GATEWAY: 502,
+  SERVICE_UNAVAILABLE: 503,
+  GATEWAY_TIMEOUT: 504
+}
+
+export const COMMON_STATUS = {
+  CLIENT_ERROR: -0000,
+  NOT_FOUND: -0000, // "请求资源不存在",
+  API_NOT_FOUND: -0000, // "请求方法不存在",
+  EXCEPTION: -0000, // "系统异常",
+  PARAM_ERROR: -0000, // "参数错误",
+  AUTH_FAILED: -0000, // "认证错误",
+  NO_PERMISION: -0000, // "没有权限",
+  NET_REQUEST_FAILED: -0000 // "网络请求失败"
+}

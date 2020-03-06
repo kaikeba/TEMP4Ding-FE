@@ -1,5 +1,4 @@
-// 以下代码引自cc-rabbit
-// git@gitlab.yeshj.com:cctalk-front-end/rabbit.git
+
 /**
  * 创建Action
  *
